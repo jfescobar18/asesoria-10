@@ -24,6 +24,7 @@ app.listen(puerto, () => {
 // Puerto 443 reservado para páginas https
 // Pueto 80 reservado para http
 // npm i nodemon --save-dev
+// npm i -g nodemon
 // Con nodemon no se reinicia la aplicación
 // a menos que se instale una nueva dependencia
 // npm run start

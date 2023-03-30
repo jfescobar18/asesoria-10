@@ -5,7 +5,6 @@ const app = express();
 const puerto = 3000;
 
 app.use("/prueba", (req, res) => {
-    console.log(res, "res");
     res.send("<h1>Hola Mundo</h1>");
 });
 
